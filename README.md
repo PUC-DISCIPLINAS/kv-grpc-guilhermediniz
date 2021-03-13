@@ -11,14 +11,20 @@
   - Protocoll Buffer Compiler (if you with to recompile the .proto file to another language)
 
 ## Instructions
-  1- Run the server:
+  1- Install the Python packages:
+  
+  ```sh
+  pip install -r requirements.txt
+  ```
+
+  2- Run the server:
   
   ```sh
     cd src/keyValueStore
     python KeyValueServer.py
   ```
   
-  2- Run the client:
+  3- Run the client:
   
   ```sh
   cd src/keyValueStore
